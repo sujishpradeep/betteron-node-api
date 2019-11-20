@@ -11,7 +11,7 @@ module.exports = function(app) {
   app.use(express.json());
   app.use(express.static(path.join(__dirname, `client/build`)));
 
-  app.use("/api/topics", topics);
-  app.use("/api/tags", tags);
+  app.use("/upstacks/topics", topics);
+  app.use("/upstacks/tags", tags);
   app.use(error);
 };
