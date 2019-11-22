@@ -1,4 +1,4 @@
-const { Tag } = require("./models/tag");
+const { Tag } = require("../models/tag");
 const mongoose = require("mongoose");
 
 const tags = [
@@ -37,11 +37,7 @@ const tags = [
     short: "women",
     popular: "N"
   },
-  {
-    name: "Men",
-    short: "men",
-    popular: "N"
-  },
+
   {
     name: "Psychology",
     short: "psychology",
