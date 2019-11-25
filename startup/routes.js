@@ -1,6 +1,7 @@
 const express = require("express");
 const resources = require("../routes/resources");
 const tags = require("../routes/tags");
+const users = require("../routes/users");
 
 const cors = require("cors");
 const error = require("../middleware/error");
@@ -13,5 +14,6 @@ module.exports = function(app) {
 
   app.use("/upstacks/resources", resources);
   app.use("/upstacks/tags", tags);
+  app.use("/upstacks/users", users);
   app.use(error);
 };
