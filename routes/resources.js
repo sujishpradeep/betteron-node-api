@@ -51,8 +51,10 @@ router.post("/", async (req, res) => {
 
   tags = tags.map(t => t.replace(/\b\w/g, l => l.toUpperCase()));
 
+  const name = req.body.name.replace(/\b\w/g, l => l.toUpperCase());
+
   resource = new Resource({
-    name: req.body.name,
+    name: name,
 
     url: req.body.url,
     type: req.body.type,
@@ -74,26 +76,28 @@ router.post("/", async (req, res) => {
   }
 });
 
-router.put("/:id", async (req, res) => {
-  const { error } = validate(req.body);
-  if (error) return res.status(400).send(error.details[0].message);
+router.put("/upvotes/:id", async (req, res) => {
+  // const { error } = validate(req.body);
+  // if (error) return res.status(400).send(error.details[0].message);
 
-  const resource = await Resource.findByIdAndUpdate(
-    req.params.id,
-    { name: req.body.name },
-    {
-      new: true
-    }
-  );
+  let upvotes = isNaN(req.body.upvotes) ? "0" : req.body.upvotes;
 
-  if (!resource)
-    return res
-      .status(404)
-      .send("The resource with the given ID was not found.");
+  try {
+    resource = await Resource.findOneAndUpdate(
+      { _id: req.params.id },
+      { upvotes: upvotes },
+      { new: true }
+    );
 
-  res.send(resource);
+    //If invalid, return 400 - Bad request
+    if (!resource) return res.status(400).send("Resource does not exist");
+
+    res.send(resource);
+  } catch (error) {
+    console.log(error);
+    res.status(404).send(error.message);
+  }
 });
-
 router.delete("/:id", async (req, res) => {
   const resource = await Resource.findByIdAndRemove(req.params.id);
 
