@@ -1,14 +1,12 @@
 const express = require("express");
 const router = express.Router();
-const { Resource, validate } = require("../models/resource");
-const { validate: validateRewards } = require("../models/reward");
-const { validate: validateRedeems } = require("../models/redeem");
-var ObjectId = require("mongoose").Types.ObjectId;
+const { Resource } = require("../models/resource");
+const _ = require("lodash");
 
 //GET ALL
 router.get("/", async (req, res) => {
-  const Resources = await Resource.find();
-  res.send(Resources);
+  const resources = await Resource.find();
+  res.send(resources);
 });
 
 //Get Resource by ID
@@ -30,10 +28,10 @@ router.get("/findbytag/:tag", async (req, res) => {
       .replace(/\b\w/g, l => l.toUpperCase())
       .replace("-", " ");
 
-    let resource = await Resource.find({ tags: tag });
-    if (!resource) return res.status(404).send("Resource not found");
+    let resources = await Resource.find({ tags: tag });
+    if (!resources) return res.status(404).send("Resource not found");
 
-    res.send(resource);
+    res.send(_.orderBy(resources, ["upvotes"], ["desc"]));
   } catch (error) {
     console.log("error", error);
   }
