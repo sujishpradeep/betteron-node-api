@@ -13,5 +13,18 @@ async function seed() {
 
 resources.map(r => (r.upvotes = 0));
 resources.map(r => (r.isApproved = "Y"));
+resources.map(
+  r =>
+    (r.tags = r.tags
+      .split(",")
+      .map(t => t.trim().replace(/\b\w/g, l => l.toUpperCase())))
+);
+
+// let tags = req.body.tags.split(",");
+
+//   tags = tags.map(t => t.trim());
+
+//   tags = tags.map(t => t.replace(/\b\w/g, l => l.toUpperCase()));
+
 console.log(resources[0]);
 seed();
