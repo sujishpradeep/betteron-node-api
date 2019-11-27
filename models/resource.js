@@ -11,7 +11,8 @@ const resourceSchema = new mongoose.Schema({
   appstore: { type: String, required: false },
   upvotes: { type: Number, required: true },
   tags: [String],
-  isApproved: { type: String, required: true }
+  isApproved: { type: String, required: true },
+  description: String
 });
 
 const Resource = mongoose.model("Resource", resourceSchema);
@@ -27,7 +28,8 @@ function validateResource(resource) {
     gplaylink: Joi.string().optional(),
     upvotes: Joi.string().required(),
     isApproved: Joi.string().required(),
-    tags: Joi.array().optional()
+    tags: Joi.array().optional(),
+    description: Joi.string().optional()
   };
 
   return Joi.validate(resource, schema);

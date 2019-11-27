@@ -1,0 +1,370 @@
+[
+  {
+    "name": "Trello",
+    "type": "App",
+    "tags": "Productivity, Organization",
+    "pricing": "Free",
+    "url": "https://trello.com/",
+    "description": "Trello is a web-based Kanban-style list-making application. It enables you to organize your plan and work better."
+  },
+  {
+    "name": "Wundelist",
+    "type": "App",
+    "tags": "Productivity, Notes",
+    "pricing": "Freemium",
+    "url": "https://www.wunderlist.com/",
+    "description": "Wunderlist helps you to capture their ideas, things to do and places to see. Whether you’re sharing a grocery list with a loved one, working on a project, or planning a vacation, Wunderlist makes it easy to share your lists and collaborate with everyone in your life."
+  },
+  {
+    "name": "Evernote",
+    "type": "App",
+    "tags": "Productivity, Notes",
+    "pricing": "Freemium",
+    "url": "https://evernote.com/",
+    "description": "Evernote is an app designed for note taking, organizing, task management, and archiving."
+  },
+  {
+    "name": "Pocket",
+    "type": "App",
+    "tags": "Productivity, Notes",
+    "pricing": "Freemium",
+    "url": "https://getpocket.com/",
+    "description": "Pocket is an application and web service for managing a reading list of articles and videos from the Internet."
+  },
+  {
+    "name": "LastPass",
+    "type": "App",
+    "tags": "Passwords",
+    "pricing": "Freemium",
+    "url": "https://www.lastpass.com/",
+    "description": "LastPass is a password manager that stores encrypted passwords online"
+  },
+  {
+    "name": "Dashlane",
+    "type": "App",
+    "tags": "Passwords",
+    "pricing": "Freemium",
+    "url": "https://www.dashlane.com/",
+    "description": "Dashlane is a cross-platform premium password manager and digital wallet application available on macOS, Windows, iOS and Android."
+  },
+  {
+    "name": "RoboForm",
+    "type": "App",
+    "tags": "Passwords",
+    "pricing": "Free",
+    "url": "https://www.roboform.com/",
+    "description": "RoboForm securely stores all of your passwords and logs you in with a single click (or tap)."
+  },
+  {
+    "name": "Getting Things Done",
+    "type": "Book",
+    "tags": "Productivity, Organization",
+    "pricing": "Paid",
+    "url": "https://www.amazon.com/Getting-Things-Done-Stress-Free-Productivity/dp/0142000280",
+    "description": "In Getting Things Done, veteran coach and management consultant David Allen shares the breakthrough methods for stress-free performance that he has introduced to tens of thousands of people across the country. From core principles to proven tricks, Getting Things Done can transform the way you work, showing you how to pick up the pace without wearing yourself down."
+  },
+  {
+    "name": "The Seven Habits of Highly Effective People",
+    "type": "Book",
+    "tags": "Productivity, Organization",
+    "pricing": "Paid",
+    "url": "https://www.amazon.com/7-Habits-Highly-Effective-People/dp/1416502491",
+    "description": "Authored by Stephen R Covey, The 7 Habits of Highly Effective People, the beloved classic that has sold over 20 million copies worldwide. The 7 Habits have become so famous because they work. They have been integrated into everyday thinking by many millions of people. "
+  },
+  {
+    "name": "Think Like da Vinci",
+    "type": "Book",
+    "tags": "Productivity, Creativity",
+    "pricing": "Paid",
+    "url": "https://www.amazon.com/How-Think-Like-Leonardo-Vinci/dp/0440508274",
+    "description": "Author Michael J. Gelb, show how step-by-step, through exercises and provocative lessons, anyone can harness the power and awesome wonder of their own genius, mastering such life-changing skills as problem solving, creative thinking, self-expression, goal setting and life balance, and harmonizing body and mind."
+  },
+  {
+    "name": "The Power of Habit",
+    "type": "Book",
+    "tags": "Productivity, Habits",
+    "pricing": "Paid",
+    "url": "https://www.amazon.com/Power-Habit-What-Life-Business/dp/B007EJSMC8",
+    "description": "In The Power of Habit, award-winning business reporter Charles Duhigg takes us to the thrilling edge of scientific discoveries that explain why habits exist and how they can be changed. At its core, The Power of Habit contains an exhilarating argument: The key to exercising regularly, losing weight, being more productive, and achieving success is understanding how habits work."
+  },
+  {
+    "name": "Eat That Frog",
+    "type": "Book",
+    "tags": "Productivity",
+    "pricing": "Paid",
+    "url": "https://www.amazon.com/Eat-That-Frog-Great-Procrastinating-ebook/dp/B001AFF25W",
+    "description": "Bestselling author Brian Tracy cuts to the core of what is vital to effective time management: decision, discipline, and determination."
+  },
+  {
+    "name": "Getting Results the Agile Way",
+    "type": "Book",
+    "tags": "Productivity",
+    "pricing": "Paid",
+    "url": "https://www.amazon.com/Getting-Results-Agile-Way-Personal/dp/0984548203",
+    "description": "In Getting Results the Agile Way, author J.D. Meier introduces Agile Results®-a simple system for meaningful results! It's a systematic way to achieve both short- and long-term results in all aspects of your life-from work to fun."
+  },
+  {
+    "name": "Mint",
+    "type": "App",
+    "tags": "Personal Finance",
+    "pricing": "Free",
+    "url": "https://www.mint.com/",
+    "description": "Mint is the free money manager and financial tracker app which bring together your bank accounts, credit cards, bills and investments so you know where you stand. See what you’re spending, where you can save money, and track your bills in Mint."
+  },
+  {
+    "name": "Rich Dad Poor Dad",
+    "type": "Book",
+    "tags": "Personal Finance",
+    "pricing": "Paid",
+    "url": "https://www.amazon.com/Rich-Dad-Poor-Teach-Middle-ebook/dp/B0175P82RA",
+    "description": "In Rich Dad Poor Dad, one of the best Personal Finance book of all time, Robert Kiyosaki shares the story of his two dad: his real father, whom he calls his ‘poor dad,’ and the father of his best friend, the man who became his mentor and his ‘rich dad."
+  },
+  {
+    "name": "You are a badass at making money",
+    "type": "Book",
+    "tags": "Personal Finance",
+    "pricing": "Paid",
+    "url": "https://www.amazon.com/You-Are-Badass-Making-Money/dp/0735222975",
+    "description": "You Are A Badass At Making Money is the book you need if you've spent too much time watching money land in your bank account and then roll through your fingers. Jen Sincero went from living in a converted garage to traveling the world in 5-star luxury in a matter of years, and knows all too well the layers of BS one can get wrapped up in around money, as well as what it takes to dig your way out."
+  },
+  {
+    "name": "The automatic millionare",
+    "type": "Book",
+    "tags": "Personal Finance",
+    "pricing": "Paid",
+    "url": "https://www.amazon.com/Automatic-Millionaire-Expanded-Updated-Powerful/dp/0451499085",
+    "description": "The Automatic Millionaire starts with the powerful story of an average American couple--he’s a low-level manager, she’s a beautician--whose joint income never exceeds $55,000 a year, yet who somehow manage to own two homes debt-free, put two kids through college, and retire at 55 with more than $1 million in savings. "
+  },
+  {
+    "name": "Age Proof",
+    "type": "Book",
+    "tags": "Personal Finance",
+    "pricing": "Paid",
+    "url": "https://www.amazon.com/AgeProof-Living-Without-Running-Breaking/dp/1455567302",
+    "description": "Financial expert Jean Chatzky and the Cleveland Clinic's chief wellness officer Dr. Michael Roizen explain the vital connection between health and wealth--giving readers all the tactics, strategies, and know-how to live longer, healthier, more lucrative lives."
+  },
+  {
+    "name": "The Total Money Makeover",
+    "type": "Book",
+    "tags": "Personal Finance",
+    "pricing": "Paid",
+    "url": "https://www.amazon.com/Total-Money-Makeover-Financial-Fitness/dp/1491522984",
+    "description": "Total Money Makeover, authored by Dave Ramsey is regarded by many as the simplest, most straightforward game plan for completely making over your money habits. And it’s based on results, not pie-in-the-sky fantasies"
+  },
+  {
+    "name": "The Richest man in Babylon",
+    "type": "Book",
+    "tags": "Personal Finance",
+    "pricing": "Paid",
+    "url": "https://www.amazon.com/Richest-Man-Babylon-Ancients-Inspiring-ebook/dp/B07BB5N17S",
+    "description": "Authored by George S. Clason, The Richest Man in Babylon is considered as the greatest of all inspirational works on the subject of thrift, financial planning, and personal wealth. Revealed inside are the secrets to acquiring money, keeping money, and making money earn more money."
+  },
+  {
+    "name": "Coach.me",
+    "type": "App",
+    "tags": "Goals, Habits",
+    "pricing": "Free",
+    "url": "https://www.coach.me/",
+    "description": "Form a new habit with with ease with the support from coach.me community."
+  },
+  {
+    "name": "Strides",
+    "type": "App",
+    "tags": "Goals",
+    "pricing": "Free",
+    "url": "https://www.stridesapp.com/",
+    "description": "Strides help you to track all your goals and habits in one place"
+  },
+  {
+    "name": "GoalsOnTrack",
+    "type": "App",
+    "tags": "Goals",
+    "pricing": "Free",
+    "url": "https://www.goalsontrack.com/",
+    "description": "GoalsOnTrack can help you set SMART goals, break down long term goals into milestones or sub goals, and organize them with your own categories."
+  },
+  {
+    "name": "Grammarly",
+    "type": "App",
+    "tags": "Writing, Productivity",
+    "pricing": "Free",
+    "url": "https://www.grammarly.com/",
+    "description": "Grammarly helps you to compose clear, mistake-free writing that makes the right impression with Grammarly’s writing assistant."
+  },
+  {
+    "name": "RescueTime",
+    "type": "App",
+    "tags": "Time Management, Productivity",
+    "pricing": "Free",
+    "url": "https://www.rescuetime.com/",
+    "description": "RescueTime is an automatic productivity and time tracker that helps you understand and control the time spent on device. Get rich insights into how you spend your day, build better habits, and beat distractions."
+  },
+  {
+    "name": " Tomato Timer",
+    "type": "App",
+    "tags": "Time Management",
+    "pricing": "Free",
+    "url": "https://tomato-timer.com/",
+    "description": "Tomato time is a productivity app designed for your work and study. Stay focused and finish tasks effectively."
+  },
+  {
+    "name": "The Fitness Mindset",
+    "type": "Book",
+    "tags": "Fitness",
+    "pricing": "Paid",
+    "url": "https://www.amazon.com/Fitness-Mindset-tension-mindset-results/dp/1781332525",
+    "description": "The Fitness Mindset gives you everything you need to get the body you've always dreamed of, ramp your energy levels through the roof and develop the mindset to keep it forever. It is authored by Brian Keane"
+  },
+  {
+    "name": "Bigger Leaner Stronger",
+    "type": "Book",
+    "tags": "Fitness",
+    "pricing": "Paid",
+    "url": "https://www.amazon.com/Bigger-Leaner-Stronger-Building-Ultimate/dp/1938895304",
+    "description": "If you want to get muscular, lean, and strong as quickly as possible without steroids, good genetics, extreme dieting, or wasting ridiculous amounts of time in the gym . . . regardless of your age . . . you want to read this book, authored by Michael Matthews"
+  },
+  {
+    "name": "No Sweat",
+    "type": "Book",
+    "tags": "Fitness",
+    "pricing": "Paid",
+    "url": "https://www.amazon.com/No-Sweat-Science-Motivation-Lifetime/dp/0814434851",
+    "description": "No Sweat translates years of research on exercise and motivation into a simple four-point program that will empower you to break the cycle of exercise failure once and for all. Authored by Michelle Segar, after reading the book you'll become motivated from the inside out and start to crave physical activity. "
+  },
+  {
+    "name": "Fitness Nutrition",
+    "type": "Book",
+    "tags": "Fitness",
+    "pricing": "Paid",
+    "url": "https://www.amazon.com/Fitness-Nutrition-Ultimate-Building-Athletes-ebook/dp/B00MC82TUC",
+    "description": "Authored by Nichols Bjorn, after reading the book you will never be able to get a fitness guide as comprehensive as this book anywhere else. With the knowledge you will gain from this book, you will be on your way to getting the amazing body that you want"
+  },
+  {
+    "name": "Stop, Breate & Think",
+    "type": "App",
+    "tags": "Meditation",
+    "pricing": "Free",
+    "url": "https://www.stopbreathethink.com/",
+    "description": "A friendly app to guide people through meditations for mindfulness & compassion."
+  },
+  {
+    "name": "Calm",
+    "type": "App",
+    "tags": "Meditation",
+    "pricing": "Free",
+    "url": "https://www.calm.com/",
+    "description": "Calm helps you to develop a daily meditation practice. Discover daily meditations, meditation series on stress & anxiety, and more!"
+  },
+  {
+    "name": "Buddhify",
+    "type": "App",
+    "tags": "Meditation",
+    "pricing": "Free",
+    "url": "https://buddhify.com/",
+    "description": "Buddhify is a meditation & mindfulness app designed to fit busy lifestyles. With a beautiful design & easy user experience, it is loved all over the world."
+  },
+  {
+    "name": "Insight Timer",
+    "type": "App",
+    "tags": "Meditation",
+    "pricing": "Free",
+    "url": "https://insighttimer.com/",
+    "description": "Insight Timer is a smartphone app and online community for meditation. The app features guided meditations, music and talks posted by contributing experts"
+  },
+  {
+    "name": "Omvana",
+    "type": "App",
+    "tags": "Meditation",
+    "pricing": "Free",
+    "url": "https://www.omvana.com/",
+    "description": "Omvana brings you the world's best meditations, relaxation audios, yoga music and self improvement tracks all in one beautiful meditation app. Sleep better, relax better and transform your life with exclusive audios from many of the world's best health, wellness and meditation teachers."
+  },
+  {
+    "name": "Ummo",
+    "type": "App",
+    "tags": "Public Speaking",
+    "pricing": "Free",
+    "url": "http://www.ummoapp.com/",
+    "description": "Ummo app tracks the amount of “ums” and other words you select for it so you’re aware how frequently filler words come up"
+  },
+  {
+    "name": "Orai",
+    "type": "App",
+    "tags": "Public Speaking",
+    "pricing": "Freemium",
+    "url": "https://www.orai.com/",
+    "description": "Orai offers interactive, fun lesson content and detailed analysis of recorded speech to highlight areas for improvement. It provide instant feedback on filler words, pacing, conciseness, and more!"
+  },
+  {
+    "name": "How to Deliver a great Ted Talk",
+    "type": "Book",
+    "tags": "Public Speaking",
+    "pricing": "Paid",
+    "url": "https://www.amazon.com/How-Deliver-Great-TED-Talk-ebook/dp/B00BRYDKM8",
+    "description": "Authored by Akash Karia, this book helps you discover tools that will help make you twice the speaker you are today in half the time."
+  },
+  {
+    "name": "The Art Of Presentation Flow",
+    "type": "Book",
+    "tags": "Public Speaking",
+    "pricing": "Free",
+    "url": "https://www.upstate.edu/medresidency/pdf/presentation-notes0913.pdf",
+    "description": "Everyday millions are feared by PowerPoint yet our effectiveness as educators depends on our presentation skills. This study is a note to help you improve your presentation whether it be a 5 min, 30 min or one hour lecture. "
+  },
+  {
+    "name": "The Art of Public Speaking",
+    "type": "Book",
+    "tags": "Public Speaking",
+    "pricing": "Paid",
+    "url": "https://www.amazon.com/Art-Public-Speaking-Dale-Carnegie/dp/1469259427",
+    "description": "The Art of Public Speaking is a \"must listen\" for anyone who feels they have something valuable to say, but is not quite sure how to go about saying it. It is authored by Dale Carnegie and J. Berg Esenwein"
+  },
+  {
+    "name": "How to Win Friends and Influence People",
+    "type": "Book",
+    "tags": "Communication",
+    "pricing": "Paid",
+    "url": "https://www.amazon.com/How-Win-Friends-Influence-People/dp/0671027034",
+    "description": "Dale Carnegie’s rock-solid, time-tested advice has carried countless people up the ladder of success in their business and personal lives. It is one of the most groundbreaking and timeless bestsellers of all time."
+  },
+  {
+    "name": "Crucial Conversations",
+    "type": "Book",
+    "tags": "Communication",
+    "pricing": "Paid",
+    "url": "https://www.amazon.com/Crucial-Conversations-Tools-Talking-Stakes-ebook/dp/B000OV1BNA",
+    "description": ".Crucial Conversations offers readers a proven seven-point strategy for achieving their goals in all those emotionally, psychologically, or legally charged situations that can arise in their professional and personal lives. "
+  },
+  {
+    "name": "The Definitive Book of Body Language",
+    "type": "Book",
+    "tags": "Communication, Body Language",
+    "pricing": "Paid",
+    "url": "https://www.amazon.com/Definitive-Book-Body-Language-Expressions-ebook/dp/B000SEH9QG",
+    "description": "Filled with fascinating insights, humorous observations, and simple strategies that you can apply to any situation, The Definitive Book of Body Language authored by Allan & Barbara Pease will enrich your communication with and understanding of others–as well as yourself."
+  },
+  {
+    "name": "DuoLingo",
+    "type": "App",
+    "tags": "Language",
+    "pricing": "Free",
+    "url": "https://www.duolingo.com/",
+    "description": "Duolingo is a platform that includes a language-learning website and app, as well as a digital language proficiency assessment exam. "
+  },
+  {
+    "name": "Think and Grow Rich",
+    "type": "Book",
+    "tags": "Habits, Investing",
+    "pricing": "Paid",
+    "url": "https://www.amazon.com/Think-Grow-Rich-Landmark-Bestseller/dp/1585424331/ref=pd_sbs_14_t_0/140-8155863-2304417?_encoding=UTF8&pd_rd_i=1585424331&pd_rd_r=e7cf9be7-74ad-4a38-b37c-1922dd8277dd&pd_rd_w=Fc95T&pd_rd_wg=YvL7c&pf_rd_p=5cfcfe89-300f-47d2-b1ad-a4e27203a02a&pf_rd_r=A18QV733E1KMMSB1SKDX&psc=1&refRID=A18QV733E1KMMSB1SKDX",
+    "description": "Think and Grow Rich has been called the \"Granddaddy of All Motivational Literature.\" It was the first book to boldly ask, \"What makes a winner?\" The man who asked and listened for the answer, Napoleon Hill, is now counted in the top ranks of the world's winners himself."
+  },
+  {
+    "name": "The Monk who sold his Ferrari",
+    "type": "Book",
+    "tags": "Habits, Goals, Meditation",
+    "pricing": "Paid",
+    "url": "https://www.amazon.com/Monk-Who-Sold-His-Ferrari/dp/0062515675",
+    "description": "Authored by Robin Sharma, this inspiring tale provides a step-by-step approach to living with greater courage, balance, abundance, and joy. A wonderfully crafted fable, The Monk Who Sold His Ferrari tells the extraordinary story of Julian Mantle, a lawyer forced to confront the spiritual crisis of his out-of-balance life."
+  }
+]

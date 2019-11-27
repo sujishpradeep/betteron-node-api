@@ -53,7 +53,7 @@ router.post("/", async (req, res) => {
 
   resource = new Resource({
     name: name,
-
+    description: "",
     url: req.body.url,
     type: req.body.type,
     pricing: req.body.pricing,
