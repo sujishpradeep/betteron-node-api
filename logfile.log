@@ -314,3 +314,5 @@
 {"level":"info","message":"Connected to mongodb://localhost/upstacks..","timestamp":"2019-11-24T23:17:14.842Z"}
 {"level":"info","message":"listening to port 3000","timestamp":"2019-11-24T23:17:42.173Z"}
 {"level":"info","message":"Connected to mongodb://localhost/upstacks..","timestamp":"2019-11-24T23:17:42.194Z"}
+{"level":"info","message":"listening to port 3000","timestamp":"2019-11-29T00:11:46.203Z"}
+{"level":"info","message":"Connected to mongodb://localhost/upstacks..","timestamp":"2019-11-29T00:11:46.227Z"}
