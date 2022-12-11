@@ -15,7 +15,7 @@
     "bcrypt": "^3.0.6",
     "config": "^3.2.2",
     "cors": "^2.8.5",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-async-errors": "^2.1.0",
     "helmet": "^3.21.2",
     "joi": "^14.3.1",
